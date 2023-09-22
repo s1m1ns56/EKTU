@@ -8,43 +8,45 @@
 </head>
 <body>
     <header>
-        
-        <h1>[FiRu]</h1>
+        <h1>Добро пожаловать в [FiRu]</h1>
     </header>
     <main>
-        <section class="login">
-            <h2>Вход в аккаунт</h2>
-            <form id="login-form">
-                <label for="username">Имя пользователя:</label>
-                <input type="text" id="username" name="username" required>
-                <br>
-                <label for="password">Пароль:</label>
-                <input type="password" id="password" name="password" required>
-                <br>
-                <button type="button" id="login-button">Войти</button>
-            </form>
-        </section>
+        <div class="tabs-container">
+            <section class="tab login-tab">
+                <h2>Вход в аккаунт</h2>
+                <form id="login-form">
+                    <label for="username">Имя пользователя:</label>
+                    <input type="text" id="username" name="username" required>
+                    <br>
+                    <label for="password">Пароль:</label>
+                    <input type="password" id="password" name="password" required>
+                    <br>
+                    <button type="button" id="login-button">Войти</button>
+                </form>
+            </section>
 
-        <section class="register">
-            <h2>Регистрация</h2>
-            <form id="register-form">
-                <label for="new-username">Имя пользователя:</label>
-                <input type="text" id="new-username" name="new-username" required>
-                <br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <br>
-                <label for="new-password">Пароль:</label>
-                <input type="password" id="new-password" name="new-password" required>
-                <br>
-                <label for="confirm-password">Подтвердите пароль:</label>
-                <input type="password" id="confirm-password" name="confirm-password" required>
-                <br>
-                <button type="button" id="register-button">Зарегистрироваться</button>
-            </form>
-        </section>
+            <section class="tab register-tab">
+                <h2>Регистрация</h2>
+                <form id="register-form">
+                    <label for="new-username">Имя пользователя:</label>
+                    <input type="text" id="new-username" name="new-username" required>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <label for="new-password">Пароль:</label>
+                    <input type="password" id="new-password" name="new-password" required>
+                    <br>
+                    <label for="confirm-password">Подтвердите пароль:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                    <br>
+                    <button type="button" id="register-button">Зарегистрироваться</button>
+                </form>
+            </section>
+        </div>
     </main>
     <footer>
+        <div class="wave"></div> <!-- Волнующий элемент -->
         <p>&copy; 2023 [FiRu] | <a href="https://t.me/INTP_web">Перейти в Телеграм</a></p>
     </footer>
     <script src="script.js"></script> <!-- Подключаем JavaScript -->
