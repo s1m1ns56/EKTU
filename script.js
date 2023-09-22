@@ -1,3 +1,7 @@
+// import timeNow from "./features/timeFunction.js";
+
+// мои модули для новых(моих) функций, не пойдут в репо
+
 // Получаем элементы форм и кнопок
 const loginForm = document.getElementById('login-form');
 const loginButton = document.getElementById('login-button');
