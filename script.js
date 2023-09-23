@@ -2,6 +2,9 @@
 
 // мои модули для новых(моих) функций, не пойдут в репо
 
+
+import Umessage from "./UI/message/Umessage.js";
+
 // Получаем элементы форм и кнопок
 const loginForm = document.getElementById('login-form');
 const loginButton = document.getElementById('login-button');
